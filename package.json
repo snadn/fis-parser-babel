@@ -1,5 +1,5 @@
 {
-  "name": "fis-parser-babel",
+  "name": "fis-parser-babelcore",
   "version": "1.0.0",
   "description": "a parser of fis use babel",
   "main": "index.js",
