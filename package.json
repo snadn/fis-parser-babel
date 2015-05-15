@@ -1,0 +1,26 @@
+{
+  "name": "fis-parser-babel",
+  "version": "1.0.0",
+  "description": "a parser of fis use babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snadn/fis-parser-babel.git"
+  },
+  "keywords": [
+    "fis",
+    "babel"
+  ],
+  "author": "snadn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snadn/fis-parser-babel/issues"
+  },
+  "homepage": "https://github.com/snadn/fis-parser-babel",
+  "dependencies": {
+    "babel-core": "^5.4.2"
+  }
+}
