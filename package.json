@@ -22,5 +22,5 @@
   "homepage": "https://github.com/snadn/fis-parser-babel",
   "peerDependencies": {
     "babel-core": "^6.0.0"
-  },
+  }
 }
