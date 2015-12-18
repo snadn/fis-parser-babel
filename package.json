@@ -1,6 +1,6 @@
 {
   "name": "fis-parser-babelcore",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a parser of fis use babel",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/snadn/fis-parser-babel/issues"
   },
   "homepage": "https://github.com/snadn/fis-parser-babel",
-  "dependencies": {
-    "babel-core": "^5.4.2"
-  }
+  "peerDependencies": {
+    "babel-core": "^6.0.0"
+  },
 }
