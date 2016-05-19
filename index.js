@@ -9,7 +9,7 @@ module.exports = function(content, file, conf) {
 	}, conf.options);
 
 	if (fis.util.filter(file.subpath, conf.include, conf.exclude)) {
-		var s = babel.transform(content, conf.options);
+		var s = babel.transform(content, opt);
 		// console.log(s.code);
 		return s.code;
 	} else {
