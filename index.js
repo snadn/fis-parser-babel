@@ -4,9 +4,10 @@ var babel = require("babel-core");
 
 module.exports = function(content, file, conf) {
 	// console.log(file);
-	var opt = fis.util.merge({
+	var opt = {
 		filename: file.realpath
-	}, conf.options);
+	};
+	fis.util.merge(opt, conf.options);
 
 	if (fis.util.filter(file.subpath, conf.include, conf.exclude)) {
 		var s = babel.transform(content, opt);
